@@ -1,0 +1,11 @@
+{
+    "name": "Basic Chrome Extension",
+    "version": "1.0",
+    "description": "Displays an overlay and routes the user to a new website",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["index.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
